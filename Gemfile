@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rack-wwwhisper', '~> 1.0'
 gem 'nokogiri', '~> 1.5.11'
 gem 'sinatra'
 gem 'data_mapper'
