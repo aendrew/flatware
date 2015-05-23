@@ -1,6 +1,5 @@
-# TODO: upgrade to Basic plan and enable on subdomain.
-#require 'rack/wwwhisper'
-#use Rack::WWWhisper
+require 'rack/wwwhisper'
+use Rack::WWWhisper
 
 require 'sinatra'
 require 'data_mapper'
